@@ -1,0 +1,106 @@
+{
+  "id": "6660018b-6023-43c1-ab2e-81ae53a79995",
+  "version": "2.0",
+  "name": "DevOps07",
+  "url": "https://www.chrono24.com",
+  "tests": [{
+    "id": "0a6134ed-b94f-4061-ba37-e7cb6d248915",
+    "name": "DevOps07",
+    "commands": [{
+      "id": "21ab3f95-e490-4498-bb40-f127c85e37db",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46ab1386-08df-4e97-8368-41100993ac62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x826",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df640786-f4d4-47c6-81ac-8ac97a77054b",
+      "comment": "",
+      "command": "click",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=query", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caf8df89-ed1e-442e-ae4a-46c0b1a75f53",
+      "comment": "",
+      "command": "type",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=query", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tudor black bay fifty eight"
+    }, {
+      "id": "c7a3f249-a4ce-4084-80ad-267a2c4df7fb",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=query", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f44b4c27-c418-47c9-b257-ac6c8d1f71cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.result-sorting",
+      "targets": [
+        ["css=.result-sorting", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[2]/div/div[3]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34825e11-33ef-4191-bafa-be31da3dacb1",
+      "comment": "",
+      "command": "select",
+      "target": "css=.result-sorting",
+      "targets": [],
+      "value": "label=Price: low to high"
+    }, {
+      "id": "7e420c85-f8fa-431f-be25-a64fa0b4a17d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.article-item-container:nth-child(16) .article-image-container",
+      "targets": [
+        ["css=.article-item-container:nth-child(16) .article-image-container", "css:finder"],
+        ["xpath=//div[@id='wt-watches']/div[6]/a/div", "xpath:idRelative"],
+        ["xpath=//div[6]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8f0d0c5d-a438-4668-9810-eb938019230a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0a6134ed-b94f-4061-ba37-e7cb6d248915"]
+  }],
+  "urls": ["https://www.chrono24.com/"],
+  "plugins": []
+}

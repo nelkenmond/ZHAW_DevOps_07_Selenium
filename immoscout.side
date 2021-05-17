@@ -1,0 +1,239 @@
+{
+  "id": "8e57b5b7-9e30-48a0-93fe-d4f7e1c0e917",
+  "version": "2.0",
+  "name": "immoscout",
+  "url": "https://www.immoscout24.ch",
+  "tests": [{
+    "id": "9f48f457-cf20-4fd3-bd59-6f7b18b6dce4",
+    "name": "immoscout",
+    "commands": [{
+      "id": "0c07a4bc-21b0-4e47-afa9-dcb89a9b6392",
+      "comment": "",
+      "command": "open",
+      "target": "/de",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6a2e8ae-8e80-4fcc-bfc3-936ff50e0fbb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x826",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ecb7073-91e0-4fc5-8678-157c88882193",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-field-1",
+      "targets": [
+        ["id=form-field-1", "id"],
+        ["css=#form-field-1", "css:finder"],
+        ["xpath=//input[@id='form-field-1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/section/div/div[2]/div/form/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be2c36a6-38be-451a-aedc-780c459a843a",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-field-1",
+      "targets": [
+        ["id=form-field-1", "id"],
+        ["css=#form-field-1", "css:finder"],
+        ["xpath=//input[@id='form-field-1']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/section/div/div[2]/div/form/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Zürich"
+    }, {
+      "id": "f601efc7-f7d4-49e9-b744-70efbfe4c7f4",
+      "comment": "",
+      "command": "click",
+      "target": "name=pt",
+      "targets": [
+        ["name=pt", "name"],
+        ["css=.ehnWYY > .Box-cYFBPY", "css:finder"],
+        ["xpath=//select[@name='pt']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/section/div/div[2]/div/form/div/div/div[4]/div/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26900c58-8a9c-4d69-a446-5c35ddab9760",
+      "comment": "",
+      "command": "select",
+      "target": "name=pt",
+      "targets": [],
+      "value": "label=1 300 CHF"
+    }, {
+      "id": "36bce402-d1e1-4b1e-8d4a-24eb3a254efa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eggxXL",
+      "targets": [
+        ["css=.eggxXL", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/section/div/div[2]/div/form/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Mehr Suchkriterien')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5775b3f6-1d71-4ed1-bd49-a35e966a8d98",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.eggxXL",
+      "targets": [
+        ["css=.eggxXL", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/section/div/div[2]/div/form/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Mehr Suchkriterien')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "215d8114-14fb-4cfa-b03c-f4ec4861f286",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.eggxXL",
+      "targets": [
+        ["css=.eggxXL", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/section/div/div[2]/div/form/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Mehr Suchkriterien')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bc12a8e-ae86-40ef-ab00-2cf4ddbf5d15",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-field-12",
+      "targets": [
+        ["id=form-field-12", "id"],
+        ["name=slf", "name"],
+        ["css=#form-field-12", "css:finder"],
+        ["xpath=//select[@id='form-field-12']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/section/div/div[2]/div/form/div[2]/div/section/div[2]/div[5]/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "832da271-86f1-44be-af20-e9db1cbbec01",
+      "comment": "",
+      "command": "select",
+      "target": "id=form-field-12",
+      "targets": [],
+      "value": "label=50 m²"
+    }, {
+      "id": "de502843-caa6-4c99-9607-498f405cac0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dKMJUc",
+      "targets": [
+        ["css=.dKMJUc", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Schliessen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e511850a-2629-4511-8bb6-397aa0814350",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eTsbLu",
+      "targets": [
+        ["css=.eTsbLu", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/section/div/div[2]/div/form/div[2]/div/section/div[2]/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "936e619b-87fb-40b0-a14b-c7278027f06e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,78)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20be89df-0565-4d19-b6b1-e1395b6b8186",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,386)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ac99e39-8abc-43c1-a6ff-4fbe00ee52bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Shell-hIMfen > .Box-cYFBPY",
+      "targets": [
+        ["css=.Shell-hIMfen > .Box-cYFBPY", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div/div/section[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f97987-ab7e-446a-8682-1f68b3309a2a",
+      "comment": "",
+      "command": "select",
+      "target": "css=.Shell-hIMfen > .Box-cYFBPY",
+      "targets": [],
+      "value": "label=Preis: niedrig"
+    }, {
+      "id": "cb63b068-7b56-41e0-ad27-2ea6dc8e201c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Wrapper__WrapperStyled-gUcoSG:nth-child(1) .AddressLine__TextStyled-eaUAMD",
+      "targets": [
+        ["css=.Wrapper__WrapperStyled-gUcoSG:nth-child(1) .AddressLine__TextStyled-eaUAMD", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div/div/div/article/a/div/div/div[2]/div/address/span/span", "xpath:idRelative"],
+        ["xpath=//address/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3dedb81-f953-4ca2-8a4a-0d3a4b4e7204",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Wrapper__WrapperStyled-gUcoSG:nth-child(1) .AddressLine__TextStyled-eaUAMD",
+      "targets": [
+        ["css=.Wrapper__WrapperStyled-gUcoSG:nth-child(1) .AddressLine__TextStyled-eaUAMD", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div/div/div/article/a/div/div/div[2]/div/address/span/span", "xpath:idRelative"],
+        ["xpath=//address/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8340f6ec-8b3d-45c7-84f4-16f223677c09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Wrapper__WrapperStyled-gUcoSG:nth-child(1) .Content-gQJqk > .Box-cYFBPY:nth-child(1)",
+      "targets": [
+        ["css=.Wrapper__WrapperStyled-gUcoSG:nth-child(1) .Content-gQJqk > .Box-cYFBPY:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div/div/div/article/a/div/div/div[2]/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'3,5 Zimmer, 74 m², CHF 620.—')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2c1e222-81cb-4b90-aa34-449f169bc958",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,450)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9175f149-2693-4175-ae95-94e28bc10dc1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9f48f457-cf20-4fd3-bd59-6f7b18b6dce4"]
+  }],
+  "urls": ["https://www.immoscout24.ch/"],
+  "plugins": []
+}
